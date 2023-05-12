@@ -1,0 +1,103 @@
+/* Style the form container */
+#create-monster-form {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the form labels */
+  #create-monster-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style the form input fields */
+  #create-monster-form input[type="text"],
+  #create-monster-form input[type="number"],
+  #create-monster-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the form submit button */
+  #create-monster-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  #create-monster-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+/* Set global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Style the page header */
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 50px 0;
+  }
+  
+  /* Style the create monster and monster container sections */
+  #create-monster,
+  #monster-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+  }
+  
+  /* Style the navigation buttons */
+  #back,
+  #forward {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: 20px;
+    position: fixed;
+    bottom: 50px;
+  }
+  
+  #back {
+    left: 50px;
+  }
+  
+  #forward {
+    right: 50px;
+  }
+  
+  /* Style the navigation buttons on hover */
+  #back:hover,
+  #forward:hover {
+    background-color: #3e8e41;
+    cursor: pointer;
+  }
+    
